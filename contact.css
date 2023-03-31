@@ -1,0 +1,40 @@
+body {border: 3px dotted black;
+     margin: 10px;
+     border: 9px double black;}
+
+     header h1{
+        font-size: 180%;
+        font-style: italic;
+        text-align: center; }
+  
+        .contact-info,form {
+    border: 1px solid black;
+    padding: 10px;
+    }
+  
+  
+    hr {
+    border: none;
+    border-top: 2px solid black;
+    margin: 20px 0;
+    }
+  
+    .foot{ font-style: italic;
+    font-size: 2.2rem;}
+   
+   
+ 
+    form{text-align: center;
+     vertical-align: middle;}  
+
+     
+   
+     .H:hover {
+            color: #11b4f5;
+          }
+
+          form {
+            border: 1px solid #ccc; 
+            margin: 20px;
+            }
+        

@@ -1,0 +1,26 @@
+body {border: 3px dotted black;
+    margin: 10px;
+    border-bottom-width: 4px;
+    border-right-style: dashed;
+    border-left-color: gray;}
+    hr {
+        border: none;
+        border-top: 2px solid black;
+        margin: 20px 0;
+        }
+        h3{font-style: italic;
+        
+			text-shadow: 2px 2px 4px #000000;  }
+
+            .a:hover {
+                color: #11b4f5;
+              }
+              .b:hover {
+                color: #cbf511;
+              }
+              .c:hover {
+                color: #11f51c;
+              }
+              .d:hover {
+                color: #f511cf;
+              }

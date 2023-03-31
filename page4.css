@@ -1,0 +1,21 @@
+body {
+    border: 9px double black;
+    font-size: 100%;margin-left: 2em;
+       }
+       table {
+        vertical-align: middle;
+    }
+    hr {
+        border: double;
+        border-top: 2px solid black;
+        margin: 20px 0;
+        }
+        table {
+			border-collapse: collapse;
+			margin: 0 auto;
+		}
+		th, td {
+			padding: 10px;
+			border: 1px solid black;
+		}
+        h1{	text-align: center;}
