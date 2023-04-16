@@ -3,32 +3,71 @@
 <link rel="stylesheet" href="page3.css">
 </head>
 <style>
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #6ab193ea;
+}
+
+header {
+  background-color: #222;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
 nav {
-  background-color: #333;
+  background-color: #444;
+  color: #fff;
   padding: 10px;
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+nav ul {
+  list-style: none;
   display: flex;
+  justify-content: center;
 }
 
-li {
+nav li {
   margin: 0 10px;
 }
 
-a {
+nav a {
   color: #fff;
   text-decoration: none;
-  transition: all 0.3s ease;
 }
 
-a:hover {
-  color: #ff0000;
+section {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-body{background-color:#3b5856;}
+
+section h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+footer {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+footer p {
+  margin: 0;
+}
 img{border: 2px solid black;}
 img {
 			display: block;
@@ -36,13 +75,13 @@ img {
 		}
 dd {text-align: center;}
 dt {text-align: center;}
-footer{background-color: #6ff86f;} 
-       footer{text-align: center;} 
+dd {font-style: italic ;}
+ 
 </style>
 <body>
     <nav>
         <ul>
-            <li><a href="midterm.html">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="midterm2.html">Register</a></li>
             <li><a href="midterm3.html">About me</a></li>
             <li><a href="midterm4.html">Table</a></li>

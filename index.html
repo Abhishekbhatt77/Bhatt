@@ -4,57 +4,100 @@
         <link rel="stylesheet" href="page1.css">
     </head>
     <style>
-        nav {
-  background-color: #333;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #6ab193ea;
+}
+
+header {
+  background-color: #222;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  background-color: #444;
+  color: #fff;
   padding: 10px;
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+nav ul {
+  list-style: none;
   display: flex;
+  justify-content: center;
 }
 
-li {
+nav li {
   margin: 0 10px;
 }
 
-a {
+nav a {
   color: #fff;
   text-decoration: none;
-  transition: all 0.3s ease;
 }
 
-        nav {text-align: center;}
-       body{background-color: #87CEEB;}
-       header{background-color: #FFFACD;}
-       footer{background-color: #FFFACD;}
-       header{text-align: center;} 
-       footer{text-align: center;} 
-       img{border: 2px solid black;}
-       img {
-			display: block;
-			margin: auto;
-		}
+section {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+footer {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+footer p {
+  margin: 0;
+}
+
+#ab {float: right;
+  margin-left: 20px;
+}
+h1,h2,h3 {text-align: center;}
     </style>
+    <script>
+      const imgElement = document.getElementById("abhi2.jpg");
+imgElement.style.float = "right";
+
+    </script>
+    
     <body>
         <header><i><h3>Student introduction</h3></i></header>
         <nav>
             <ul>
-            <li><a href="midterm.html">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="midterm2.html">Register</a></li>
             <li><a href="midterm3.html">About me</a></li>
            <li><a href="midterm4.html">Table</a></li>
             <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
-        
+  
         
      <h1>Hi I am Abhishek Bhatt</h1>
      <h2>Student id: n01579175</h2>
      <h3>Course:<i><mark>Computer programming any analysis</mark></i></h3>
-     <img src="abhi1.jpg" alt="MY image" wight="400" height="500"> <img src="abhi2.jpg" alt="MY image" wight="400" height="500">
+     <img src="abhi1.jpg" alt="MY image" wight="400" height="500"> <img src="abhi2.jpg" id="ab" alt="MY image" wight="400" height="500">
      <footer>Thank you!</footer>
     </body>
 </html>

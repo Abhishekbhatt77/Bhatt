@@ -2,50 +2,102 @@
 <head><title>Table</title>
 <link rel="stylesheet" href="page4.css">
 </head>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
 <style>
-    body {background-color: rgb(204, 241, 135);}
-    table {text-align: center;}
-  table, th, td {
-  border: 1px solid;
-  }
-  nav {
-  background-color: #333;
+    * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #6ab193ea;
+}
+
+header {
+  background-color: #222;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  background-color: #444;
+  color: #fff;
   padding: 10px;
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+nav ul {
+  list-style: none;
   display: flex;
+  justify-content: center;
 }
 
-li {
+nav li {
   margin: 0 10px;
 }
 
-a {
+nav a {
   color: #fff;
   text-decoration: none;
-  transition: all 0.3s ease;
 }
 
-a:hover {
-  color: #ff0000;
+section {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-footer{background-color: #a252ec;} 
-       footer{text-align: center;} 
+
+section h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+footer {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+footer p {
+  margin: 0;
+}
+ 
+ 
 </style>
 <body>
     <nav>
         <ul>
-            <li><a href="midterm.html">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="midterm2.html">Register</a></li>
             <li><a href="midterm3.html">About me</a></li>
             <li><a href="midterm4.html">Table</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
+    <div class="dropdown">
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Dropdown button
+      </button>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <a class="dropdown-item" href="index.html">Home</a>
+        <a class="dropdown-item" href="midterm2.html">Registration</a>
+        <a class="dropdown-item" href="midterm3.html">About me</a>
+        <a class="dropdown-item" href="contact.html">Contact us</a>
+      </div>
+    </div>
 <h1><i>Student records</i></h1>
 <hr>
 <div>

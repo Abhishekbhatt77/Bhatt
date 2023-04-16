@@ -4,16 +4,101 @@
   <link rel="stylesheet" href="page2.css">
 </head>
 <style>
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #6ab193ea;
+}
+
+header {
+  background-color: #222;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
 nav {
-  background-color: #333;
+  background-color: #444;
+  color: #fff;
   padding: 10px;
 }
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+section {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+footer {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+footer p {
+  margin: 0;
+}
+
     </style>
+    <script>
+      function validateForm() {
+        var inputField1 = document.getElementById("username");
+        var inputField2= document.getElementById("password");
+        var inputField3 = document.getElementById("email");
+        
+        if (inputField1.value == "") {
+          alert("Please enter your name");
+          return false;
+        }
+        if (inputField2.value == "" ) {
+        alert("Please enter the password");
+          return false;
+        }
+        if (inputField3.value == "") {
+          alert("Please enter phone number");
+          return false;
+        }
+       
+      }
+      
+      </script>
+      
 <body>
     <header><i><h3><b>Registration page</b></h3></i></header>
 <nav>
     <ul>
-        <li><a href="midterm.html">Home</a></li>
+        <li><a href="index.html">Home</a></li>
         <li><a href="midterm2.html">Register</a></li>
         <li><a href="midterm3.html">About me</a></li>
         <li><a href="midterm4.html">Table</a></li>
@@ -39,7 +124,7 @@ nav {
       <input type="password" id="password" name="password" tabindex="2"><br><br>
       <label for="email">Email:</label>
       <input type="email" id="email" name="email" tabindex="3"><br><br>
-      <input type="submit" value="Register">
+      <input type="submit" onclick= validateForm() value="Register">
       </form>
     <footer class = foo>Thank you for registering with us.</footer>
 </body>
